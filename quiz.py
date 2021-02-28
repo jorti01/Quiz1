@@ -9,7 +9,7 @@ class Command(ABC):
 class EncenderComando(Command):
 	def __init__(self):
 		pass
-	def excecute(self):
+	def execute(self):
 		print("Comando de encendido recibido.")
 
 class ApagarComando(Command):
